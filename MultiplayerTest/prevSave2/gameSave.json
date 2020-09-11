@@ -1,0 +1,185 @@
+{
+autoSave: true
+saveDataVersion: 7
+saveFolder: MultiplayerTest
+lastUpdated: 1599853677209
+playerName: Multiplayer Test
+missionType: normal
+missionPlanetName: EJZ-038
+missionDayGoal: 29
+terrainGenSeed: 285
+currentDayNum: 4
+currentPeriod: day
+currentPeriodTime: 0.039265104
+currentWeatherId: clear
+currentWeatherTime: 66.844536
+currentWeatherDuration: 336.65063
+dayCycleModes: defaultDay
+waterMode: defaultWater
+techTreeMode: allTechUnlocked
+playerData: {
+	characterSuitColor: ee662f
+	chunkX: 49
+	chunkY: 57
+	localX: 2
+	worldX: 492
+	worldY: 570
+	inventoryItemDataList: [
+		{
+			itemId: researchObject
+			amount: 1
+		}
+		{
+			itemId: shovel
+			amount: 1
+			durability: 4
+		}
+		{
+			itemId: wire
+			amount: 2
+		}
+		{
+			itemId: jackhammer
+			amount: 1
+			durability: 1309
+		}
+		{
+			itemId: nuclear-fuel
+			amount: 1
+		}
+		{
+			itemId: metal
+			amount: 5
+		}
+		{
+			itemId: plant
+			amount: 1
+		}
+		{
+			itemId: ore
+			amount: 5
+		}
+		{
+			itemId: radioactive-ore
+			amount: 3
+		}
+		{
+			itemId: researchObject
+			amount: 1
+		}
+	]
+	air: 269.80756
+	suitPower: 90
+	hunger: 113.00669
+	health: 100
+	suitLevel: 1
+}
+tutorialStage: start
+unlockedTech: [
+	construction
+	tools
+	flooring
+	power
+	chemistry
+	batteries
+	engines
+	windpower
+	power3
+	storage
+	food
+	food2
+	nav
+	transportation
+	recycling
+	advancedModules
+	suit
+]
+entityDataList: [
+	{
+		className: com.cairn4.moonbase.Buggie
+		worldXPos: 63421.555
+		worldYPos: 72861.6
+		rotation: 543.77765
+		properties: {
+			wheel1func: {
+				class: java.lang.Boolean
+				value: true
+			}
+			charge: {
+				class: java.lang.Float
+				value: 200
+			}
+			wheel2func: {
+				class: java.lang.Boolean
+				value: true
+			}
+			wheel0func: {
+				class: java.lang.Boolean
+				value: true
+			}
+			health: {
+				class: java.lang.Float
+				value: 40
+			}
+			wheel3func: {
+				class: java.lang.Boolean
+				value: true
+			}
+			id: {
+				class: java.lang.Long
+				value: 8
+			}
+		}
+	}
+	{
+		className: com.cairn4.moonbase.ItemPickup
+		worldXPos: 60308.336
+		worldYPos: 73785.125
+		itemId: scrap
+	}
+]
+regrowthManagerList: [
+	{
+		dropperId: wood
+		originalWorldX: 500
+		originalWorldY: 482
+		timerPercent: 0.5609546
+	}
+	{
+		dropperId: plant-sprout
+		originalWorldX: 489
+		originalWorldY: 578
+		timerPercent: 0.25478104
+	}
+	{
+		dropperId: wood
+		originalWorldX: 500
+		originalWorldY: 576
+		timerPercent: 0.39594927
+	}
+	{
+		dropperId: plant-sprout
+		originalWorldX: 496
+		originalWorldY: 568
+		timerPercent: 0.13508394
+	}
+	{
+		dropperId: plant-sprout
+		originalWorldX: 496
+		originalWorldY: 576
+		timerPercent: 0.10577212
+	}
+	{
+		dropperId: plant-sprout
+		originalWorldX: 506
+		originalWorldY: 576
+		timerPercent: 0.08236851
+	}
+	{
+		dropperId: plant-sprout
+		originalWorldX: 506
+		originalWorldY: 580
+		timerPercent: 0.062169638
+	}
+]
+}
